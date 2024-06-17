@@ -9,3 +9,20 @@ main {
     overflow-x: auto;
     overflow-y: hidden;
   }
+
+  .scrollspy-example-2 {
+    position: relative;
+    height: 100vh;
+    overflow: auto;
+}
+
+.sticky-nav {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1020;
+}
+
+iframe{
+    width: 75%;
+}
